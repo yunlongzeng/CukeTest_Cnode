@@ -1,0 +1,1215 @@
+[
+  {
+    "description": "<剧本描述>",
+    "keyword": "功能",
+    "name": "拖拽",
+    "line": 2,
+    "id": "拖拽",
+    "tags": [],
+    "uri": "drag_and_drop.feature",
+    "elements": [
+      {
+        "id": "拖拽;<场景名称>",
+        "keyword": "场景",
+        "line": 5,
+        "name": "<场景名称>",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 6874,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "...进入boss直聘登录页面",
+            "match": {
+              "location": "step_definitions/definitions.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...拖拽按钮到最右边",
+            "match": {
+              "location": "step_definitions/definitions.js:130"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 9000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.switchTo().frame(alibaba-register-box)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at TargetLocator.frame (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1824:25)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:132:29)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "...",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "登录模块",
+    "keyword": "功能",
+    "name": "登录模块测试",
+    "line": 2,
+    "id": "登录模块测试",
+    "tags": [],
+    "uri": "feature1.feature",
+    "elements": [
+      {
+        "id": "登录模块测试;进入登录页面,校验页面跳转是否正确",
+        "keyword": "场景",
+        "line": 11,
+        "name": "进入登录页面,校验页面跳转是否正确",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 18,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "浏览到搜索网站 \"http://39.107.96.138:3000/\"",
+            "match": {
+              "location": "step_definitions/definitions.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:7:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...点击登录按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "...进入登录页面",
+            "match": {
+              "location": "step_definitions/definitions.js:15"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 13000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 21,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 12,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"123456\"",
+            "match": {
+              "location": "step_definitions/definitions.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"True\",信息提示应为 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 22,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 10,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"信息不完整。\"",
+            "match": {
+              "location": "step_definitions/definitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 23,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 11,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"12121\"",
+            "match": {
+              "location": "step_definitions/definitions.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"用户名或密码错误\"",
+            "match": {
+              "location": "step_definitions/definitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 24,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 7,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"123456\"",
+            "match": {
+              "location": "step_definitions/definitions.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"信息不完整。\"",
+            "match": {
+              "location": "step_definitions/definitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 25,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 6,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"1212\"",
+            "match": {
+              "location": "step_definitions/definitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"1212\"",
+            "match": {
+              "location": "step_definitions/definitions.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"用户名或密码错误\"",
+            "match": {
+              "location": "step_definitions/definitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 26,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 6,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"信息不完整。\"",
+            "match": {
+              "location": "step_definitions/definitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "<剧本描述>",
+    "keyword": "功能",
+    "name": "模拟快捷键操作",
+    "line": 2,
+    "id": "模拟快捷键操作",
+    "tags": [],
+    "uri": "key.feature",
+    "elements": [
+      {
+        "id": "模拟快捷键操作;control-＋-b",
+        "keyword": "场景",
+        "line": 5,
+        "name": "control ＋ b",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 8,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "...进入发帖页面",
+            "match": {
+              "location": "step_definitions/key.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://39.107.96.138:3000/signin)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/key.js:7:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...输入control ＋ b",
+            "match": {
+              "location": "step_definitions/key.js:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "<剧本描述>",
+    "keyword": "功能",
+    "name": "鼠标移动",
+    "line": 2,
+    "id": "鼠标移动",
+    "tags": [],
+    "uri": "mounsemove.feature",
+    "elements": [
+      {
+        "id": "鼠标移动;百度首页移动鼠标点击音乐",
+        "keyword": "场景",
+        "line": 5,
+        "name": "百度首页移动鼠标点击音乐",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 7,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "...打开百度",
+            "match": {
+              "location": "step_definitions/definitions.js:73"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(https://www.baidu.com/)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:75:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...移动鼠标到音乐，并点击",
+            "match": {
+              "location": "step_definitions/definitions.js:78"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "...进入音乐页面",
+            "match": {
+              "location": "step_definitions/definitions.js:86"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "<剧本描述>",
+    "keyword": "功能",
+    "name": "切换窗口",
+    "line": 2,
+    "id": "切换窗口",
+    "tags": [],
+    "uri": "switch_window.feature",
+    "elements": [
+      {
+        "id": "切换窗口;<场景名称>",
+        "keyword": "场景",
+        "line": 5,
+        "name": "<场景名称>",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 7,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "...打开郑州大学官网",
+            "match": {
+              "location": "step_definitions/definitions.js:139"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(http://www15.zzu.edu.cn/)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:141:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...点击学术报告",
+            "match": {
+              "location": "step_definitions/definitions.js:144"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "...切换至第一个页面窗口",
+            "match": {
+              "location": "step_definitions/definitions.js:149"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "<剧本描述>",
+    "keyword": "功能",
+    "name": "显式等待与隐式等待",
+    "line": 2,
+    "id": "显式等待与隐式等待",
+    "tags": [],
+    "uri": "wait.feature",
+    "elements": [
+      {
+        "id": "显式等待与隐式等待;显式等待",
+        "keyword": "场景",
+        "line": 5,
+        "name": "显式等待",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 7,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "...进入网址 \"https://autowebtest.github.io/myself/\"",
+            "match": {
+              "location": "step_definitions/definitions.js:93"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(https://autowebtest.github.io/myself/)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:95:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...点击导航栏",
+            "match": {
+              "location": "step_definitions/definitions.js:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "...进入导航页面",
+            "match": {
+              "location": "step_definitions/definitions.js:104"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "显式等待与隐式等待;隐式等待",
+        "keyword": "场景",
+        "line": 10,
+        "name": "隐式等待",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 7,
+          "status": "failed",
+          "exception": {
+            "name": "NoSuchWindowError",
+            "remoteStacktrace": ""
+          }
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 11,
+            "name": "...进入网址 \"https://autowebtest.github.io/myself/\"",
+            "match": {
+              "location": "step_definitions/definitions.js:93"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.navigate().to(https://autowebtest.github.io/myself/)\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at Navigation.to (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1133:25)\n    at thenableWebDriverProxy.get (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:988:28)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/step_definitions/definitions.js:95:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 12,
+            "name": "...点击 导航栏",
+            "match": {
+              "location": "step_definitions/definitions.js:118"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 13,
+            "name": "...进入导航页面",
+            "match": {
+              "location": "step_definitions/definitions.js:104"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/node_modules/_selenium-webdriver@3.6.0@selenium-webdriver/lib/webdriver.js:1085:17)\n    at options.World.<anonymous> (/Users/ivon/Desktop/yunlongzeng/测试/CukeTestCases/Cnode项目/features/support/hooks.js:16:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

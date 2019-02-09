@@ -1,0 +1,3 @@
+配置1: '--run --format html --video'
+配置2: '--run --format html --browser Safari'
+配置3: '--run --format html --browser IE'

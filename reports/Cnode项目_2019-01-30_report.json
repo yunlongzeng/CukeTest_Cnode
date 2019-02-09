@@ -1,0 +1,732 @@
+[
+  {
+    "description": "登录模块",
+    "keyword": "功能",
+    "name": "登录模块测试",
+    "line": 2,
+    "id": "登录模块测试",
+    "tags": [],
+    "uri": "feature1.feature",
+    "elements": [
+      {
+        "id": "登录模块测试;进入登录页面,校验页面跳转是否正确",
+        "keyword": "场景",
+        "line": 11,
+        "name": "进入登录页面,校验页面跳转是否正确",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 11743,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "浏览到搜索网站 \"http://39.107.96.138:3000/\"",
+            "match": {
+              "location": "step_definitions/definitions.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...点击登录按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "...进入登录页面",
+            "match": {
+              "location": "step_definitions/definitions.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/1.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 21,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 2144,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"123456\"",
+            "match": {
+              "location": "step_definitions/definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"True\",信息提示应为 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/2.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 22,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 1437,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"信息不完整。\"",
+            "match": {
+              "location": "step_definitions/definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/3.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 23,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 1756,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"user1\"",
+            "match": {
+              "location": "step_definitions/definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"12121\"",
+            "match": {
+              "location": "step_definitions/definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 774000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"用户名或密码错误\"",
+            "match": {
+              "location": "step_definitions/definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/4.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 24,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 1444,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"123456\"",
+            "match": {
+              "location": "step_definitions/definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"信息不完整。\"",
+            "match": {
+              "location": "step_definitions/definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/5.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 25,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 1332,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"1212\"",
+            "match": {
+              "location": "step_definitions/definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"1212\"",
+            "match": {
+              "location": "step_definitions/definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"用户名或密码错误\"",
+            "match": {
+              "location": "step_definitions/definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/6.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "登录模块测试;登录场景测试",
+        "keyword": "场景",
+        "line": 26,
+        "name": "登录场景测试",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 1213,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "...直接进入登录页面 \"http://39.107.96.138:3000/signin\"",
+            "match": {
+              "location": "step_definitions/definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 15,
+            "name": "...输入用户名 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 16,
+            "name": "...输入密码 \"\"",
+            "match": {
+              "location": "step_definitions/definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 17,
+            "name": "...点击登录的按钮",
+            "match": {
+              "location": "step_definitions/definitions.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 18,
+            "name": "...结果为 \"False\",信息提示应为 \"信息不完整。\"",
+            "match": {
+              "location": "step_definitions/definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../../../../../../Applications/CukeTest.app/Contents/Resources/app.asar/out/cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358000000
+            },
+            "embeddings": [
+              {
+                "data": "file://Cnode项目_2019-01-30_report/7.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
